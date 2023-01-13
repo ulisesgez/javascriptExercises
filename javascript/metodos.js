@@ -48,3 +48,10 @@ h1.classList.remove('titulo')//Aqui le removimos una clase de las dos, por lo qu
 //h1.classList.contains('titulo')
 
 input.value = "456"//Le damos un valor por defecto
+
+// Crear elemento desde cero
+
+//Podemos crear el elemento html que querramos:
+//document.createElement('img');
+
+console.log(document.createElement('img'));// <img>
