@@ -35,9 +35,12 @@ console.log(h2.getAttribute('attribute'));//hello
 
 //setAttribute para modificar:
 
-h2.setAttribute('attribute', 'atTribute');
+h2.setAttribute('attribute', 'atTribute');//set para modificar atributos
 
 /*
 En elements del navegador podremos visualizar que el atributo se modifico:
 <h2 attribute="atTribute">Texto para atributos</h2>
 */
+
+h1.classList.add('titUlO')//Aqui modificamos una clase en especifico, en esta parte nos pareceran las dos clases una del html por defecto y la otra que estamos añadiendo
+h1.classList.remove('titulo')//Aqui le removimos una clase de las dos, por lo que queda titUlO
