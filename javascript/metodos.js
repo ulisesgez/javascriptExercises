@@ -32,3 +32,12 @@ Modificar un atributo getAtribute y setAtibute
 
 //h1.getAttribute('attribute');
 console.log(h2.getAttribute('attribute'));//hello
+
+//setAttribute para modificar:
+
+h2.setAttribute('attribute', 'atTribute');
+
+/*
+En elements del navegador podremos visualizar que el atributo se modifico:
+<h2 attribute="atTribute">Texto para atributos</h2>
+*/
