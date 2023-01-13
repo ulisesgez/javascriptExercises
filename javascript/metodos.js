@@ -44,3 +44,7 @@ En elements del navegador podremos visualizar que el atributo se modifico:
 
 h1.classList.add('titUlO')//Aqui modificamos una clase en especifico, en esta parte nos pareceran las dos clases una del html por defecto y la otra que estamos añadiendo
 h1.classList.remove('titulo')//Aqui le removimos una clase de las dos, por lo que queda titUlO
+//h1.classList.toggle('titulo')
+//h1.classList.contains('titulo')
+
+input.value = "456"//Le damos un valor por defecto
