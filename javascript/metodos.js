@@ -5,7 +5,8 @@ const h1 = document.querySelector('h1');
 const h2 = document.querySelector('h2');
 const p = document.querySelector('p');
 const dos = document.querySelector('.parrafoDos');
-const tres= document.querySelector('#parrafoTres');
+const tres= document.getElementById('parrafoTres');//Ya no le colocamos #, como:
+//const tres= document.querySelector('#parrafoTres');
 const input = document.querySelector('input');
 
 console.log({
@@ -55,3 +56,21 @@ input.value = "456"//Le damos un valor por defecto
 //document.createElement('img');
 
 console.log(document.createElement('img'));// <img>
+console.log(document.createElement('span'));// <span></span>
+
+//Para poder ver la imagen con createElement:
+
+const img = document.createElement('img');
+img.setAttribute('src', 'https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+console.log(img);//Solo se vera en consola
+
+//Insertamos imagen dentro de un contenedor, dentro de otro elemento que ya existia en html:
+
+tres.append(img);
+//tres.innerHTML = img;Trata de traducir, lo convierte en string
+
+/*
+Con esto eliminammos el texto (contenido, en este caso "Párrafo tres, id") y se coloca directamente la imagen:
+tres.append(img);
+tres.innerHTML = "";
+*/
