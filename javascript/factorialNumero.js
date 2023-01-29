@@ -4,3 +4,14 @@
 de todos los números enteros positivos desde 1 hasta n),
 pe. miFuncion(5) devolverá 120.
 */
+
+function factorial (n) {
+	let total = 1;
+	for (i = 1; i <= n; i++) {
+		total = total * i;
+	}
+	return console.log(total);
+}
+
+factorial(5);
+factorial(10);
