@@ -14,7 +14,7 @@ const ordenarArreglo = (arr = undefined) => {
     }
     return console.info({
         arr,
-        asc: arr.map(el => el).sort(),
+        asc: arr.map(el => el).sort(),//Con map creamos un arreglo a partir de otro y con sort los ordenamos de forma ascendente
         desc: arr.map(el => el).sort().reverse()
     });
 }

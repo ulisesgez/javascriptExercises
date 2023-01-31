@@ -15,8 +15,18 @@ const quitarDuplicados = (arr = undefined) => {
     }
     return console.info({
         orginal: arr,
+        //filter: valor, posicion, self hace referencia al mismo arreglo
         sinDuplicados: arr.filter((value, index, self) => self.indexOf(value) === index)
     })
+    /*
+    Lo anterior a partir de la linea 16 se puede hacer de una manera mas optima, con un
+    nuevo tipo de dato que tiene javascript que se llama set:
+
+    return console.info({
+        orginal: arr,
+        sinDuplicados: [... new Set(arr)]
+    })
+    */
 }
 
 quitarDuplicados([7, 5,7,8,6]);
