@@ -28,19 +28,12 @@ for(let i = 0; i < 6; i++) {
     arr.push(parseInt(prompt("Ingresa 1 numero")))
 }
 console.log(arr);
+let primerArr = arr;
 
-const ordenar = (arr) => {
-    return console.log(arr.sort(), arr.reverse(), arr.length);
-}
+console.log(arr.sort());
+console.log(arr.reverse(), arr.length);
+let respuestaBusqueda = parseInt(prompt("Que numero desea?"))
+console.log(arr.includes(respuestaBusqueda));
 
-const buscar = (arr) => {
-    let respuestaBusqueda = parseInt(prompt("Que numero desea?"))
-    return console.log(arr.includes(respuestaBusqueda), arr.indexOf(respuestaBusqueda));
-}
-
-const resultados = (arr) => {
-    ordenar(arr);
-    buscar(arr);
-}
-
-resultados(arr);
+primerArr = primerArr.indexOf(respuestaBusqueda);
+console.log(primerArr);
