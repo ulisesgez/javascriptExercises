@@ -28,12 +28,15 @@ for(let i = 0; i < 6; i++) {
     arr.push(parseInt(prompt("Ingresa 1 numero")))
 }
 console.log(arr);
-let primerArr = arr;
 
+//Aqui copiamos el array:
+const primerArr = [].concat(arr);
+
+console.log("aqui");
+console.log(primerArr);
 console.log(arr.sort());
 console.log(arr.reverse(), arr.length);
 let respuestaBusqueda = parseInt(prompt("Que numero desea?"))
 console.log(arr.includes(respuestaBusqueda));
-
-primerArr = primerArr.indexOf(respuestaBusqueda);
 console.log(primerArr);
+console.log(primerArr.indexOf(respuestaBusqueda));
