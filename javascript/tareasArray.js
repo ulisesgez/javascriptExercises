@@ -24,19 +24,25 @@ busqueda de un valor introducido por el usuario, que nos diga si lo encuentra y 
 */
 
 let arr = [];
-for(let i = 0; i < 6; i++) {
-    arr.push(parseInt(prompt("Ingresa 1 numero")))
+let respuestaBusqueda = 0;
+
+const numeros = (arr, respuestaBusqueda) => {
+    for(let i = 0; i < 6; i++) {
+        arr.push(parseInt(prompt("Ingresa 1 numero")))
+    }
+    //Array introducido:
+    console.log(`Array introducido:\n${arr}`);
+    
+    //Aqui copiamos el array:
+    const primerArr = [].concat(arr);
+    
+    console.log(`Array ordenado:\n${arr.sort()}\nArray ordenado inverso:\n${arr.reverse()}\nLongitud del array:\n${arr.length}`);
+    respuestaBusqueda = parseInt(prompt("¿Que numero desea saber si pertenece al array antes introducido?"));
+    if(arr.includes(respuestaBusqueda) && primerArr.indexOf(respuestaBusqueda) >= 0) {
+        console.info(`Existe el valor ${respuestaBusqueda} dentro del primer array\nEl valor ${respuestaBusqueda} se encuentra en la posicion ${primerArr.indexOf(respuestaBusqueda)} del primer array`);
+    } else {
+        console.error(`No existe el valor ${respuestaBusqueda} dentro del primer array`);
+    }
 }
-console.log(arr);
 
-//Aqui copiamos el array:
-const primerArr = [].concat(arr);
-
-console.log("aqui");
-console.log(primerArr);
-console.log(arr.sort());
-console.log(arr.reverse(), arr.length);
-let respuestaBusqueda = parseInt(prompt("Que numero desea?"))
-console.log(arr.includes(respuestaBusqueda));
-console.log(primerArr);
-console.log(primerArr.indexOf(respuestaBusqueda));
+numeros(arr, respuestaBusqueda);
