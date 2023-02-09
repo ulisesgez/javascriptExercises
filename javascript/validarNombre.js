@@ -1,5 +1,5 @@
 /*
-19) Programa una función que valide que un texto sea un nombre válido,
+Programa una función que valide que un texto sea un nombre válido,
 pe. miFuncion("Jonathan MirCha") devolverá verdadero.
 */
 

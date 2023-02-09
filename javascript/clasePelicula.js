@@ -1,5 +1,5 @@
 /*
-27) Programa una clase llamada Pelicula.
+Programa una clase llamada Pelicula.
 
 La clase recibirá un objeto al momento de instanciarse con los siguentes
 datos: id de la película en IMDB, titulo, director, año de estreno,
