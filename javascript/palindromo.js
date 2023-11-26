@@ -33,9 +33,9 @@ const palindromo = (palabra = "")=> {
         :console.info(false);
 };
 
-palindromo();
-palindromo("Salas");
-palindromo("hola");
-palindromo("diaid");
-palindromo("salaS");
+palindromo();//No ingresaste una palabra o frase
+palindromo("Salas");//true
+palindromo("hola");//false
+palindromo("diaid");//true
+palindromo("salaS");//true
 */
