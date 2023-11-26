@@ -14,10 +14,10 @@ function palindromo(texto) {
     }
 }
 
-palindromo("Salas");
-palindromo("hola");
-palindromo("diaid");
-palindromo("salaS");
+palindromo("Salas");//true
+palindromo("hola");//false
+palindromo("diaid");//true
+palindromo("salaS");//true
 
 /*
 Solución:
