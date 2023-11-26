@@ -28,7 +28,7 @@ elevarCuadrado([1, 2, 3]);
 elevarCuadrado([1, 4, 5]);
 elevarCuadrado([1, 4, 5, "", "h", 7, 9]);
 /*
-//Solucion:
+Solucion:
 const devolverCuadrados = (arr = undefined) => {
     if(arr === undefined) return console.warn("No ingresaste un arreglo de numeros");
     if(!(arr instanceof Array)) return console.error("El valor que ingresaste no es un arreglo");

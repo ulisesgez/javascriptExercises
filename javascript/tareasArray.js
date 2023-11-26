@@ -2,7 +2,6 @@
 Pida 6 numeros por pantalla y los meta en un array,
 mostrar el array entero,
 
-
 var numeros  = new Array(6);
 for(var i = 0; i <= 5; i++) {
     numeros[i] = parseInt(prompt("introduce un numero", 0));

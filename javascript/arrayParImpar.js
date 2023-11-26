@@ -21,7 +21,7 @@ const parImpar = (arreglo = undefined) => {
 
 parImpar([1,2,3,4,5,6,7,8,9,0]);
 /*
-//solucion:
+Solucion:
 
 const separarParesImpares = (arr = undefined) => {
     if(arr === undefined) return console.warn("No ingresaste un arreglo de numeros");

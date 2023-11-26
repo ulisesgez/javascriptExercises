@@ -2,7 +2,6 @@
 Programa una función que determine si un número es par o impar,
 pe. miFuncion(29) devolverá Impar.
 */
-
 const parImpar = (numero = undefined) => {
     if(numero === undefined) return console.warn("No ingresaste un número");
 	if(typeof numero !== "number") return console.warn("E valor ingresado no es de tipo number");
