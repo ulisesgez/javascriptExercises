@@ -2,7 +2,6 @@
 Programa una función que repita un texto X veces, pe. miFuncion('Hola Mundo', 3)
 devolverá Hola Mundo Hola Mundo Hola Mundo.
 */
-
 const repetirTexto = (texto = "", repeticion) => {
     for(i = 0; i<repeticion; i++) {
         document.write(`${texto} `);
