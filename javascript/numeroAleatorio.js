@@ -1,9 +1,5 @@
-/*
-Programa una función que obtenga un numero aleatorio entre 501 y 600.
-*/
-
+//Programa una función que obtenga un numero aleatorio entre 501 y 600.
 const aleatorio = (min, max) => console.log(Math.round(Math.random() * (max - min) + min));
-
 aleatorio(501, 600);
 
 /*
