@@ -12,8 +12,8 @@ function factorial (n) {
 	return console.log(total);
 }
 
-factorial(5);
-factorial(10);
+factorial(5);//120
+factorial(10);//3628800
 
 /*
 Solucion:
