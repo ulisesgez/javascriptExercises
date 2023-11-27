@@ -11,6 +11,6 @@ const convertir = (grados = undefined, tipo = "") => {
     : console.log("No corresponde a Celsius o Fahrenheit");
 }
 
-convertir(2,"A");
-convertir(2,"C");
-convertir(10,"F");
+convertir(2,"A");//No corresponde a Celsius o Fahrenheit
+convertir(2,"C");//35.6
+convertir(10,"F");//-12.222222222222221
