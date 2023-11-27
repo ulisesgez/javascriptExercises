@@ -4,7 +4,6 @@ Programa una función que calcule el factorial de un número
 de todos los números enteros positivos desde 1 hasta n),
 pe. miFuncion(5) devolverá 120.
 */
-
 function factorial (n) {
 	let total = 1;
 	for (i = 1; i <= n; i++) {
@@ -17,7 +16,7 @@ factorial(5);
 factorial(10);
 
 /*
-//Solucion:
+Solucion:
 
 const factorial = (numero = undefined) => {
 	if(numero === undefined) return console.warn("No ingresaste un número");
