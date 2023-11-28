@@ -22,12 +22,14 @@ const calcularAnios = (fecha = undefined,) => {
         :console.info(`Estamos en el año actual ${fecha.getFullYear()}`);
 }
 
-calcularAnios();
-calcularAnios(0);
-calcularAnios(false);
-calcularAnios([]);
-calcularAnios({});
-calcularAnios(new Date());
-calcularAnios(new Date(1984,4,23));
-calcularAnios(new Date(1998,8,08));
-calcularAnios(new Date(2303,8,08));
+calcularAnios();//No se ha pasado ningun parametro
+calcularAnios(0);//No se ha pasado ningun parametro
+calcularAnios(false);//No se ha pasado ningun parametro
+calcularAnios([]);//No se ha pasado ningun parametro
+calcularAnios({});//No se ha pasado ningun parametro
+calcularAnios(new Date(1984, 4, 23));//Han pasado 39 años desde 1984
+calcularAnios(new Date(1984, 4, 23));//Han pasado 39 años desde 1984
+calcularAnios(new Date());//Estamos en el año actual 2023
+calcularAnios(new Date(1984, 4, 23));//Han pasado 39 años desde 1984
+calcularAnios(new Date(1998, 8, 8));//Han pasado 25 años desde 1998
+calcularAnios(new Date(2303, 8, 8));//Faltan 280 años para el 2303
