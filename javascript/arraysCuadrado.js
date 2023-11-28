@@ -6,16 +6,11 @@ con los números elevados al cuadrado, pe. mi_funcion([1, 4, 5]) devolverá
 const elevarCuadrado = (numeros = undefined) => {
     if (numeros === undefined)
       return console.log("Debes Ingresar un array de numeros");
-  
     if (numeros.length === 0) return console.log("El array ingresado está Vacio");
-  
     if (!(numeros instanceof Array))
       return console.log(`El valor ${numeros} no es un Array de Numeros`);
-  
     numeros = numeros.filter((numero) => typeof numero === "number");
-  
     let cuadrados = [];
-  
     for (let i = 0; i < numeros.length; i++) {
       cuadrados.push(Math.pow(numeros[i], 2));
     }
