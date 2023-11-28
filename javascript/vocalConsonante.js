@@ -21,3 +21,7 @@ const contarLetras = (cadena = "") => {
         consonantes
     })
 }
+contarLetras();//No ingresaste una cadena de texto
+contarLetras(3);//El valor ingresado no es de tipo string
+contarLetras("Hola Mundo");//{cadena: "hola mundo", vocales: 4, consonantes: 5}
+contarLetras("Hola Mundo 123");//{cadena: "hola mundo 123", vocales: 4, consonantes: 7}
