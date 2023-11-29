@@ -12,9 +12,12 @@ const altoBajo = (numeros = []) => {
     //return console.log(Math.max(...numeros), Math.min(...numeros));
 };
 
-altoBajo([1, 4, 5, 99, -60]);
+altoBajo([1, 4, 5, 99, -60]);//[99, -60]
+altoBajo([1, 4, 5]);//[5, 1]
+altoBajo([1, 4, 5, 99, -60, "hola"]);//[99, -60]
+
 /*
-//solucion:
+Solucion:
 
 const arrayMinMax = (arr = undefined) => {
     if(arr === undefined) return console.warn("No ingresaste un arreglo de numeros");
