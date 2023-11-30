@@ -1,6 +1,5 @@
 /*
 Programa una clase llamada Pelicula.
-
 La clase recibirá un objeto al momento de instanciarse con los siguentes
 datos: id de la película en IMDB, titulo, director, año de estreno,
 país o países de origen, géneros y calificación en IMBD.
