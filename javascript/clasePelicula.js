@@ -132,7 +132,6 @@ const peli = new Pelicula ({
 
 peli.fichaTecnica();
 */
-
 const misPelis = [
   {
     id: "tt1234567",
