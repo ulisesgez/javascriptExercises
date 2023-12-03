@@ -161,4 +161,4 @@ const misPelis = [
     calificacion: 7.59
   }
 ];
-misPelis.forEach(el => new Pelicula(el).fichaTecnica());
+misPelis.forEach(el => new Pelicula(el).fichaTecnica());//forEach recorre el arreglo y ejecuta la funcion para cada elemento del arreglo.
